@@ -1,0 +1,44 @@
+.sliderInterface {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-sliders {
+  display: flex;
+  transition: transform 500ms linear 0s;
+}
+
+.sliderItem {
+  min-width: 100%;
+}
+
+.img-sliders img{
+  width: 100%;
+  flex: 1;
+  height: 70rem;
+}
+
+.buttons-move {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button-mov {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 1.5rem;
+}
+
+.button-mov:hover {
+  background-color: rgb(185, 179, 179);
+}
+
+.button-active {
+  background-color:rgb(185, 179, 179);
+}

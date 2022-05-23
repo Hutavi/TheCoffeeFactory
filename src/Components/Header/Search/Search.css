@@ -1,0 +1,43 @@
+.search {
+  border: 1px solid rgba(167, 107, 107, 0.5);
+  margin-left: auto;
+  padding: 0.5rem;
+  border: none;
+  position: fixed;
+  width: 100%;
+  animation-name: moveSearch;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  z-index: 10;
+  transition: transform 500ms ease 0s;
+  background-color: rgba(167, 107, 107, 0.5);
+  top: 5rem;
+
+}
+
+.input-search {
+  height: 4rem;
+  outline: none;
+  width: 50rem;
+  border: 2px solid rgba(240, 236, 236, 0.651);
+  border-radius: 0.8rem;
+  padding-left: 0.8rem;
+  transition: transform 500ms linear 0s;
+  background-color: rgba(167, 107, 107, 1);
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+@keyframes moveSearch {
+  0% {
+    top: 4rem;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    top: 5rem;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,45 @@
+.form-row-grid {
+  padding: 1rem 0;
+  /* background-color: rgba(82, 82, 82, 0.162); */
+}
+
+.main-describe {
+  /* padding: 4.5rem 0 0; */
+  justify-content: center;
+  /* text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; */
+  margin: auto 0;
+  margin: 5rem 0;
+}
+
+.title-produce {
+  color: red;
+  font-weight: 700;
+  font-size: 4.8rem;
+  font-family: sans-serif;
+  padding: 1rem 4rem;
+}
+
+.describe-produce {
+  font-size: 2.8rem;
+  padding: 0 3rem 1rem;
+}
+
+.details-describe {
+  font-size: 1.8rem;
+  padding: 0 6rem 2rem;
+}
+
+#detail-button {
+  width: 15rem;
+  height: 4rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.margin2 {
+  margin-top: 7rem;
+}

@@ -1,0 +1,88 @@
+:root {
+  --height-navbar: 5.5rem;
+}
+
+.all-navbar {
+  z-index: 10;
+  position: relative;
+}
+
+.navbars {
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: var(--height-navbar);
+  background-color: rgba(167, 107, 107, 0.9);
+}
+
+.logo-coffee-factory {
+  max-width: 100%;
+  max-height: 6rem;
+  margin-left: 15rem;
+}
+
+.main-menu {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.menu-item {
+  display: flex;
+  margin-right: 3rem;
+}
+
+.main-menu a {
+  /* display: inline-block; */
+  font-weight: 600;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.7rem;
+  justify-content: space-between;
+  padding: 0 0px;
+  text-align: center;
+  color: rgb(31, 28, 28);
+  line-height: var(--height-navbar);
+  justify-content: center;
+  margin: 0 2rem;
+}
+
+.main-menu a:hover {
+  cursor: pointer;
+  color: rgba(146, 9, 9, 0.804);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.icons button {
+  border: none;
+  background: none;
+  margin: 1.7rem .8rem;
+}
+
+.icons button:hover {
+  cursor: pointer;
+  color: rgba(146, 9, 9, 0.804);
+}
+
+.icon-search, 
+.icon-store,
+.icon-list {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 1rem;
+}
+
+  
